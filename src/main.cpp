@@ -1998,7 +1998,7 @@ bool LoadBlockIndex(bool fAllowNew)
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "NY Times 05/Oct/2011 Steve Jobs, Apple’s Visionary, Dies at 56";
+        const char* pszTimestamp = "NY Times 08/Aug/2015 An Indelible Black-and-White Line";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
