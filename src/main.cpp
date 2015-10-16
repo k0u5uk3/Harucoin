@@ -29,7 +29,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0xcc55654457e491f8bac5fdd99d8b1dc157534d9bc133f69cbf730783e1482886");
+uint256 hashGenesisBlock("0xb16b7c443eeba46e12ec8ff0465e2df97a50b1fa479d8f9e21c6a4327131384f");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Harucoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
